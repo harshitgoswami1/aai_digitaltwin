@@ -1,4 +1,5 @@
-# AI4I machine failure model
+# Applied AI CASE STUDY 5 - Digital Twin For the Industry
+
 
 The [training notebook](notebooks/01_machine_failure_prediction.ipynb) uses the [UCI AI4I 2020 Predictive Maintenance dataset](https://archive.ics.uci.edu/dataset/601/ai4i) (CC BY 4.0) copied to `data/ai4i2020.csv`. Its trained model is saved at `models/machine_failure.joblib`.
 
