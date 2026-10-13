@@ -1,0 +1,25 @@
+{
+  "dataset": "UCI AI4I 2020 Predictive Maintenance Dataset (CC BY 4.0)",
+  "dataset_url": "https://archive.ics.uci.edu/dataset/601/ai4i",
+  "target": "Machine failure",
+  "features": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "threshold": 0.27686800080275537,
+  "selected_model": "random forest",
+  "test_metrics": {
+    "model": "random forest",
+    "threshold": 0.27686800080275537,
+    "test_average_precision": 0.6292873798869674,
+    "test_roc_auc": 0.9553929836948705,
+    "test_brier_score": 0.012185293296469153,
+    "test_precision": 0.4027777777777778,
+    "test_recall": 0.7435897435897436,
+    "test_f2": 0.6359649122807017
+  },
+  "interpretation": "Same-row machine failure classification on synthetic data; no vibration or future horizon."
+}
